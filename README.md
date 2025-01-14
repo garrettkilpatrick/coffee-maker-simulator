@@ -10,10 +10,10 @@ This is my first "major" project incorporating Object-Oriented Programming (OOP)
 - Check the current amount of supplies
 
 ## Code Structure
-The program consists of 4 main classes:  
-- **CoffeeMaker**: The base class containing the common logic and resources (water, milk, beans, etc.).  
-- **Espresso**: A subclass of CoffeeMaker that implements the specific process for making espresso.  
+The program consists of four classes:  
+- **CoffeeMaker**: The base of the program. Contains static fields for the supplies used in the program and methods for various actions.
+- **Espresso**: A subclass of CoffeeMaker for the espresso-making process.   
 - **Latte**: A subclass of CoffeeMaker for the latte-making process.  
-- **Cappuccino**: A subclass for making cappuccinos.
+- **Cappuccino**: A subclass of CoffeeMaker for the cappuccino-making process.  
 
-Although it could have been possible to put everything in the `CoffeeMaker` class, I chose to create a subclass for each coffee type to practice using inheritance and other OOP principles. Each subclass has a method that handles the process of making the corresponding type of coffee.
+Although it could have been possible to put everything in the `CoffeeMaker` class, I chose to create a subclass for each coffee type to practice using inheritance and other OOP principles.
